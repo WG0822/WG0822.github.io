@@ -1,0 +1,69 @@
+.box {
+    width: 682px;
+    height: 730px;
+    background-color: rgb(204, 204, 204);
+    border: 2px solid black;
+}
+#header {
+    width: 654px;
+    height: 194px;           
+    background-color: red;
+    border: 2px solid yellow;
+    margin:70px 13px 16px 13px ;
+}
+#logo {
+    background-color: rgb(255, 255, 0);
+    border: 2px solid ;
+    width: 198px;
+    height: 50px;
+    float: left;
+    margin: 35px 52px 18px 13px ;
+}
+#banner {
+    background-color: rgb(0, 0, 254);
+    border: 1px solid;
+    width: 370px;
+    height: 53px;
+    float: left;
+    margin: 35px 13px 15px 0 ;
+}
+#menu {
+    width: 622px;
+    height: 66px;
+    margin: 0 13px 13px 13px;
+    background-color: rgb(2, 52, 1);
+    border: 2px solid;
+    float: left;
+}
+#main {
+    width: 654px;
+    height: 350px;
+    border: 2px solid yellow;
+    margin: 0 13px 32px 13px;
+    background-color: rgb(1, 103, 1);
+
+}
+#sidebar {
+    background-color: rgb(0, 0, 254);
+    border: 2px solid #fff;
+    margin: 40px 40px 23px 8px ;
+    float: left;
+    width:  172px;
+    height: 295px;
+}
+#content {
+    width: 390px;
+    height: 294px;
+    background-color: rgb(0, 204, 255);
+    border: 2px solid #fff;
+    margin: 40px 10px 23px 18px ;
+    float: left;
+}
+#footer {
+    width: 654px;
+    height: 45px;
+    border: 2px solid yellow; 
+    float: left;
+    margin: 0 13px 0 13px ;
+    background-color: red;
+}

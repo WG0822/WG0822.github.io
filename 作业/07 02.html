@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 实验七</title>
+    <script type="text/javascript">
+        function my_open() {
+            let my_image = document.getElementById("light");
+            my_image.src = "图片/开灯.png";}
+        function my_close() {
+            let my_image = document.getElementById("light");
+            my_image.src = "图片/关灯.png";}
+    </script>
+    <style>
+         .a {width: 400px;
+            margin: 200px auto;}
+    </style>
+</head>
+<body>
+    <div class="a">
+        <button onclick="my_close()">关灯</button>
+        <img id="light" src="图片/关灯.png"  />
+        <button onclick="my_open()">开灯</button>
+    </div>
+</body>
+</html>
